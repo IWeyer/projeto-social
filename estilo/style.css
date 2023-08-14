@@ -9,6 +9,9 @@ body{
     height: 100vh;
     background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
    
     position: relative;
    
@@ -24,7 +27,6 @@ body{
     width: 198px;
     height: 400px;
     background-image: url(../pacote-d013/imagens/frame-iphone-pq.png);
-
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;
@@ -35,6 +37,13 @@ body{
 }
 
 #tela{
+    height: 300px;
+    width: 170px;
+    position: relative;
+    top: 51px;
+    left: 14px; 
+    
+    
    
 
 
