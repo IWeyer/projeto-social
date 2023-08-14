@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    height: 100vh;
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: cover;
+   
+    position: relative;
+   
+   
+    
+    
+
+}
+
+
+
+#celular{
+    width: 198px;
+    height: 400px;
+    background-image: url(../pacote-d013/imagens/frame-iphone-pq.png);
+
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+
+}
+
+#tela{
+   
+
+
+}
+
+
+nav{
+    
+    height: 500px;
+    width: 100px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%);
+   
+   
+   
+   
+}
+button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-left: 25px;
+   
+}
+
+#home{
+    background-image: url(../pacote-d013/imagens/logo-home.jpg);
+    background-size: cover;
+
+}
+button:hover{
+    
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.514);
+    
+
+}
+
+#youtube{
+    background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
+    background-size: cover;
+}
+
+#github{
+    background-image: url(../pacote-d013/imagens/logo-github.jpg);
+    background-size: cover;
+
+}
+
+#instagram{
+    background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
+
+    background-size: cover;
+}
+
+#twitter{
+    background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
+
+    background-size: cover;
+}
+
+#facebook{
+    background-image: url(../pacote-d013/imagens/tela-facebook.jpg) ;
+
+    background-size: cover;   
+}
